@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c25a5a;
+
+}
+.container{
+    text-align: center;
+}
+
+.container h3 {
+    background-color: rgb(162, 46, 46);
+    color: rgb(58, 54, 62);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.color {
+    font-weight: bold;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.btn {
+    font-weight: bold;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+}
+.btn:hover {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px;
+    cursor: pointer;
+    color: rgb(106, 84, 107);
+    background-color: aqua;
+    transition: all 0.3s;
+}
